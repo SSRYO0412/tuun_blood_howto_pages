@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // 現在のパス（URLの後半部分）を取得
+    var path = window.location.pathname;
+    
+    // デコード（%20をスペースに戻す）して、古いファイル名が含まれているかチェック
+    if (decodeURIComponent(path).indexOf("TUUN_bloodtest_explain 2.pdf") > -1) {
+      
+      // 新しいPDFへ転送
+      window.location.replace("https://ssryo0412.github.io/tuun_blood_howto_pages/TUUN_bloodtest_explain_202.pdf");
+      
+    }
+  </script>
+</head>
+<body>
+  <p>ページを移動しています...</p>
+</body>
+</html>
